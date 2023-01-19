@@ -1,0 +1,71 @@
+#parent {
+  padding: 100px;
+  width: 60%;
+  margin: 20% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  border-radius: 30px;
+  position: absolute;
+  left: 10%;
+}
+#btn-1 {
+  padding: 10px 15px;
+  background-color: aquamarine;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+}
+#btn-3 {
+  padding: 10px 15px;
+  background-color: bisque;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 15px;
+  position: relative;
+  top: 100px;
+  left: 330px;
+}
+#btn-2 {
+  padding: 10px 15px;
+  background-color: aquamarine;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  position: relative;
+  bottom: -30px;
+}
+#all-btn {
+  margin-top: 20px;
+}
+.position-1 {
+  position: relative;
+  top: -100px;
+  left: 300px;
+}
+.position-2 {
+  position: relative;
+  bottom: -200px;
+  left: 150px;
+}
+.position-3 {
+  position: relative;
+  bottom: 300px;
+  left: 150px;
+}
+.position-4 {
+  position: relative;
+  top: -150px;
+  left: -250px;
+}
+.position-5 {
+  position: relative;
+  bottom: -300px;
+  right: -200px;
+}
