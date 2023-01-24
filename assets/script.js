@@ -99,7 +99,7 @@ const newFunction = () => {
     setTimeout(() =>{
         newFunc()
         window.location.reload()
-    }, 6000)
+    }, 5000)
     
 }
 
